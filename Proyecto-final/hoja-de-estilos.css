@@ -1,0 +1,105 @@
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 300px;
+}
+body{
+    display: grid;
+    grid-template-columns: 0.6fr 1fr;
+    font-family: 'Roboto', sans-serif;
+}
+
+body h1 h2 h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+}
+
+@media screen and (max-width: 480px) {
+    body{
+    grid-template-columns: 1fr;
+    }
+}
+
+/*COLUMNA IZQUIERDA*/
+.col-izq{
+    background-color: rgb(1, 1, 103);
+    color: white;
+    margin: 10px;
+}
+
+.imagen{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.nombre{
+    text-align: center;
+    margin: 40px 20px 40px 20px;
+}
+
+.titulo{
+    text-align: center;
+    margin: 20px;
+}
+
+#sobremititulo{
+    text-align: center;
+}
+
+.sobre-mi{
+    text-align: justify;
+    margin: 40px 20px 40px 20px;
+}
+
+#boton{
+    background-color: white;
+    color:  rgb(1, 1, 103);
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+}
+
+.contactos{
+    margin: 20px;
+}
+
+.contacto{
+    list-style: none;
+}
+
+.contacto a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.contacto a:hover{
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.datos{
+    margin: 40px 20px 40px 20px;
+}
+
+/*COLUMNA DERECHA */
+
+.col-der{
+    margin: 10px;
+    color:  rgb(1, 1, 103);
+}
+
+.col-der p{
+    text-align: justify;
+}
+
+.habilidad{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+@media screen and (max-width: 480px) {
+    .habilidad{
+    grid-template-columns: 1fr;
+    }
+}
